@@ -195,7 +195,7 @@ function attachListeners() {
     }
 
     posting.done(function(data){
-      debugger;
+      //debugger;
       current_id = data["data"]["id"]
     });
   });
